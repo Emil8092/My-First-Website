@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="../../styles/style.css" />
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <a class="nav-link" href="../../index.html">Home</a> |
+    <a class="nav-link" href="skills.html">Skills</a> |
+    <a class="nav-link" href="../../projects.html">Projects</a>
+  </nav>
+
+  <h1>HTML Basics</h1>
+  <p>This page introduces the basics of Hypertext Markup Language (HTML), the language that structures content on the web.</p>
+
+  <h2>Foundations</h2>
+
+  <table style="margin: 0 auto; border-spacing: 12px; text-align: left;">
+    <!-- Basic Tags -->
+    <tr><th colspan="2">Basic Tags</th></tr>
+    <tr><td><code>&lt;!DOCTYPE&gt;</code></td><td>Defines the HTML document type</td></tr>
+    <tr><td><code>&lt;html&gt;</code></td><td>Root element of the HTML page</td></tr>
+    <tr><td><code>&lt;head&gt;</code></td><td>Container for meta info (like charset, title)</td></tr>
+    <tr><td><code>&lt;body&gt;</code></td><td>Visible page content</td></tr>
+    <tr><td><code>&lt;title&gt;</code></td><td>Sets the browser tab title</td></tr>
+  
+    <!-- Text -->
+    <tr><th colspan="2">Text</th></tr>
+    <tr><td><code>&lt;h1&gt;–&lt;h6&gt;</code></td><td>Headings from largest to smallest</td></tr>
+    <tr><td><code>&lt;p&gt;</code></td><td>Defines a paragraph of text</td></tr>
+    <tr><td><code>&lt;br&gt;</code></td><td>Line break (empty element)</td></tr>
+    <tr><td><code>&lt;hr&gt;</code></td><td>Horizontal rule (divider)</td></tr>
+  
+    <!-- Links & Media -->
+    <tr><th colspan="2">Links & Media</th></tr>
+    <tr><td><code>&lt;a&gt;</code></td><td>Creates a hyperlink</td></tr>
+    <tr><td><code>&lt;img&gt;</code></td><td>Displays an image</td></tr>
+    <tr><td><code>&lt;video&gt;</code></td><td>Embeds a video</td></tr>
+    <tr><td><code>&lt;audio&gt;</code></td><td>Embeds audio</td></tr>
+  
+    <!-- Lists -->
+    <tr><th colspan="2">Lists</th></tr>
+    <tr><td><code>&lt;ul&gt;</code></td><td>Unordered list (bullets)</td></tr>
+    <tr><td><code>&lt;ol&gt;</code></td><td>Ordered list (numbers)</td></tr>
+    <tr><td><code>&lt;li&gt;</code></td><td>List item in a list</td></tr>
+  
+    <!-- Tables -->
+    <tr><th colspan="2">Tables</th></tr>
+    <tr><td><code>&lt;table&gt;</code></td><td>Defines a table</td></tr>
+    <tr><td><code>&lt;tr&gt;</code></td><td>Table row</td></tr>
+    <tr><td><code>&lt;td&gt;</code></td><td>Table cell</td></tr>
+    <tr><td><code>&lt;th&gt;</code></td><td>Table header cell</td></tr>
+  
+    <!-- Forms -->
+    <tr><th colspan="2">Forms</th></tr>
+    <tr><td><code>&lt;form&gt;</code></td><td>Form container</td></tr>
+    <tr><td><code>&lt;input&gt;</code></td><td>Input field (text, checkbox, etc.)</td></tr>
+    <tr><td><code>&lt;label&gt;</code></td><td>Label for form input</td></tr>
+    <tr><td><code>&lt;textarea&gt;</code></td><td>Multi-line text box</td></tr>
+    <tr><td><code>&lt;select&gt;</code></td><td>Dropdown menu</td></tr>
+  </table>
+  
+  <!-- Basic HTML Structure -->
+  <h2>Basic Page Structure</h2>
+  <p>Every HTML page starts with this structure:</p>
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- Your content goes here --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+  <!-- Clock Display (Optional) -->
+  <div id="clock-box" style="position: fixed; top: 10px; right: 20px; text-align: right;">
+    <div id="clock" style="font-size: 14px;"></div>
+    <div id="date" style="font-size: 12px;"></div>
+  </div>
+
+  <!-- JavaScript for clock -->
+  <script src="../../scripts/script.js"></script>
+</body>
+</html>

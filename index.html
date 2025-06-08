@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Define character encoding for proper text rendering -->
+  <meta charset="UTF-8" />
+
+  <!-- Title displayed in browser tab -->
+  <title>My First Website</title>
+
+  <!-- Link to external CSS stylesheet for styling -->
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <!-- Add more <a> tags here if you create more pages (e.g., About, Contact) -->
+    <nav>
+        <a class="nav-link" href="index.html">Home</a> |
+        <a class="nav-link" href="pages/skills/skills.html">Skills</a> |
+        <a class="nav-link" href="projects.html">Projects</a>
+      </nav>
+     
+  <!-- Main Heading and Intro Text -->
+  <h1>Hello, this is my website!</h1>
+  <p>My goal is to learn skills and apply them with projects</p>
+  <p> First: How to use HTML, CSS, and JavaScript to create a website </p>
+
+  <!-- Clock and Date Display (updated via script.js) -->
+  <!-- Fixed to top-right corner for visibility across the site -->
+  <div id="clock-box" style="position: fixed; top: 10px; right: 20px; text-align: right;">
+    <div id="clock" style="font-size: 14px;"></div>
+    <div id="date" style="font-size: 12px;"></div>
+  </div> 
+
+  <h2>Random Quote Generator</h2>
+  <p id="quote">Click the button to see a quote.</p>
+  <button onclick="showRandomQuote()">Show Quote</button>
+
+  <!-- JavaScript File -->
+  <!-- Contains clock and date logic -->
+  <!-- Add more functions here as you build more features -->
+  <script src="scripts/script.js"></script> 
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta info for browser rendering and character support -->
+  <meta charset="UTF-8" />
+  
+  <!-- Title shown in browser tab -->
+  <title>Projects</title>
+
+  <!-- Link to external CSS for styling -->
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <!-- Top Navigation Bar -->
+  <!-- Add more links here if you create more pages (e.g. "About", "Contact") -->
+  <nav>
+    <a class="nav-link" href="index.html">Home</a> |
+    <a class="nav-link" href="pages/skills/skills.html">Skills</a> |
+    <a class="nav-link" href="projects.html">Projects</a>
+  </nav>
+
+  <h1>Projects</h1>
+
+  <!-- Main project list -->
+  <!-- Add <li class="project"> tags here for new how-to projects -->
+  <!-- Make sure each one links to a real page under /pages/your-project-folder/index.html -->
+  <ul id="project-list">
+    <li class="project"><a href="pages/how-to/how-to-website.html">Website</a></li>
+    <li class="project"><a href="pages/how-to/how-to-whistle.html">Whistling</a></li>
+    <li class="project"><a href="pages/how-to/how-to-public-speaking.html">Public Speaking</a></li>
+    <li class="project"><a href="pages/how-to/how-to-SQL.html">SQL</a></li>
+    <li class="project"><a href="pages/how-to/how-to-PowerBi.html">PowerBi</a></li>
+  </ul>
+
+  <!-- Automatically updated by JavaScript -->
+  <!-- Will display the total number of projects on this page -->
+  <p id="project-count"></p>
+
+  <!-- Clock & Date shown in top-right corner -->
+  <!-- Automatically updated every second -->
+  <div id="clock-box" style="position: fixed; top: 10px; right: 20px; text-align: right;">
+    <div id="clock" style="font-size: 14px;"></div>
+    <div id="date" style="font-size: 12px;"></div>
+  </div>
+
+  <!-- JavaScript logic for clock, date, and project counter -->
+  <!-- Add any new JS features in scripts/script.js -->
+  <script src="scripts/script.js"></script>
+</body>
+</html>
