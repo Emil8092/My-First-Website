@@ -6,13 +6,18 @@
   <link rel="stylesheet" href="styles/style.css" /> <!-- Link to external CSS -->
 </head>
 
-
-<!-- Navigation Bar -->
-
 <body>
-<div id="navbar-placeholder"></div> <!-- Placeholder for Navigation Bar -->
-<div id="clock-placeholder"></div> <!-- Placeholder for Clock and Date Display -->
+<!-- Navigation Bar -->
+<nav>
+  <a class="nav-link" href="index.html">Home</a> |
+  <a class="nav-link" href="pages/skills/skills.html">Skills</a> |
+  <a class="nav-link" href="projects.html">Projects</a> |
+  <a class="nav-link" href="pages/resume/resume.html">About</a> |
+  <a class="nav-link" href="pages/tools/tools.html">Tools</a>
+</nav>
 
+
+  
 
 
   <!-- Main Heading and Intro Text -->
@@ -22,6 +27,12 @@
   <h2> This is my first website! </h2>
   <p> First: How to use HTML, CSS, and JavaScript to create a basic website </p>
 
+
+<!-- Clock and Date Display  -->
+<div id="clock-box" style="position: fixed; top: 10px; right: 20px; text-align: right;">
+    <div id="clock" style="font-size: 14px;"></div>
+    <div id="date" style="font-size: 12px;"></div>
+</div> 
 
   <!-- JavaScript File -->
   <script src="scripts/script.js"></script> 
